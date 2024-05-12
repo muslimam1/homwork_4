@@ -1,0 +1,121 @@
+.second__block{
+    border-radius: 5px;
+    width: 566px;
+    height: 981px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.second__box{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.second__logo{
+    margin-top: 48px;
+}
+
+.second__titile{
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 29px;
+    color: #000000;
+}
+
+.second__content{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.second__subTitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #444150;
+}
+
+.second__logn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: #01bab3;
+    text-decoration: underline;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.second__from{
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.second__acount{
+    margin-bottom: 9px;
+    text-align: start;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444150;
+}
+
+.second__width{
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    width: 414px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #d9d9d9;
+}
+
+.second__count{
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    width: 200px;
+    padding: 10px;
+}
+
+.second__mail{
+    margin-top: 24px;
+}
+
+.second__registr{
+    border-radius: 4px;
+    width: 416px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-color: #01bab3;
+    align-items: center;
+    border:1px solid #d9d9d9;
+    margin-top: 87px;
+    transition: .25s;
+
+    &:hover{
+        cursor: pointer;
+    }
+    &:active{
+        transform: scale(.95);
+    }
+}
+
+.second__text{
+    margin-top: 43px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    text-align: center;
+    color: #778699;
+}
+
+.second__words{
+    color: #01bab3;
+}

@@ -2,6 +2,11 @@
     border-bottom: 1px solid #DBDEDF;
 }
 
+.header__logo{
+    align-items: center;
+    margin-top: 5px;
+}
+
 .header__block{
     display: flex;
     justify-content: space-between;

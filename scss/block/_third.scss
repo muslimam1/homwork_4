@@ -1,0 +1,116 @@
+.third__box{
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 496px;
+    height: 641px;
+    box-shadow: 0 4px 56px 0 rgba(0, 0, 0, 0.04), 0 12px 16px 0 rgba(0, 0, 0, 0.04);
+    background: #ffffff;
+    text-align: center;
+    padding: 43px 41px;
+}
+
+.third{
+    background-color: #f4f8fa;;
+}
+
+.third__block{
+    padding-top: 24px;
+    padding-bottom: 20%;
+}
+
+.third__title{
+    margin: 26px;
+    font-weight: 700;
+    font-size: 29px;
+    color: #000000;
+}
+
+.third__content{
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.third__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: #444150;
+}
+
+.third__log{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    color: #01bab3;
+    text-decoration: underline;
+}
+
+.third__gmail{
+    text-align: start;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444150;
+}
+
+.third__width{
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    width: 414px;
+    height: 45px;
+    outline: none;
+    padding: 8px;
+}
+
+.third__mail{
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+
+.third__cuntinue{
+    border-radius: 4px;
+    width: 416px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-color: #01bab3;
+    align-items: center;
+    border:1px solid #d9d9d9;
+    margin-top: 87px;
+    transition: .25s;
+
+    &::after{
+        content: " ";
+        display: inline-block;
+        margin-left: 10px;
+        width: 24px;
+        height: 24px;
+        background-repeat: no-repeat;
+        background-image: url('../img/arrow.svg');
+        background-position: right;
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+    &:active{
+        transform: scale(.95);
+    }
+}
+
+.third__text{
+    margin-top: 36px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.65);
+}
