@@ -1,0 +1,30 @@
+.header{
+    border-bottom: 1px solid #DBDEDF;
+}
+
+.header__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content{
+    display: flex;
+    gap: 32px;
+}
+
+.header__link{
+    border: 1px solid #DBDEDF;
+    padding: 2px 8px;
+    border-radius: 5px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.header__item{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
